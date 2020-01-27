@@ -1,0 +1,310 @@
+/* ===================================
+=====   Medium Layout: 1280px.  ======
+=====================================*/
+@media only screen and (min-width: 992px) and (max-width: 1200px) { 
+  
+/*====== Mega Menu CSS =====*/
+    div.mainmenu div.mega_menu { left: -460px; }
+    
+/*===== Logo/Navigation Area CSS =====*/
+    div.mainmenu{ display: block; }
+    
+/*===== Contact Form Area CSS =====*/
+    .contact_area select#dept, .contact_area select#priority{ width: 48%; }
+    .contact_area select#dept{ margin-right: 15px; }
+    .contact_details h3 { font-size: 19px; }
+    .social_area a { width: 65px; }
+    
+    
+    
+}
+
+
+
+/* ===================================
+=====   Tablet Layout: 768px.  =======
+=====================================*/
+@media only screen and (min-width: 768px) and (max-width: 991px) { 
+    
+/*===== Header Area CSS =====*/
+    header ul li a { font-size: 13px; }
+    header a.promo, header a.language, header ul li a { font-size: 13px; }
+    
+/*===== Logo/Navigation Area CSS =====*/
+    nav .logo img { width: 140px; }
+    div.mainmenu{ display: block; }
+    div.mainmenu ul li a {padding: 25px 12px; }
+ 
+/*=== Mega Menu CSS ===*/
+    div.mainmenu div.mega_menu { width: 550px; left: -235px; }
+    
+/*===== Hero Area CSS =====*/
+    .hero_content_details h2 { font-size: 30px; }
+    .hero_content_details p { font-size: 22px; }
+    .hero_content { height: 430px; }
+    
+/*===== Feature Area CSS =====*/
+    .single_feature { border: 1px solid #000; }
+    
+/*===== Services/Hosting Plan Area CSS =====*/
+    section.services_area { padding-bottom: 40px; }
+    .single_service { margin-bottom: 30px; }
+    
+/*===== Contact Form Area CSS =====*/
+    .contact_area select#dept, .contact_area select#priority{ width: 48%; }
+    .contact_area select#dept{ margin-right: 11px; }
+    .contact_details h3 { font-size: 20px; line-height: 34px; }
+    .social_area a { width: 70px; }
+    
+    
+    
+    
+}
+
+
+
+/* ===================================
+=====   Mobile Layout: 320px.  =======
+=====================================*/
+@media only screen and (max-width: 767px) { 
+ 
+/*===== Header Area CSS =====*/
+    header ul li a { font-size: 12px; }
+    header a.promo, header a.language, header ul li a { font-size: 12px; }
+    header ul { float: left; padding-left: 0px;}
+    header .promo_language{border-bottom: 1px solid #000; padding-left: 10px;}
+    header div.col-xs-12{padding: 0;}
+    header ul li{ margin: 0px 2px; }
+    
+/*===== Logo/Navigation Area CSS =====*/
+    nav .logo { width: 100%; height: 55px; }
+    
+    
+/* ============== Mobile Menu ================*/
+    div.mainmenu{ opacity: 0; visibility: hidden;}
+    div.mainmenu.mobMenu{ opacity: 1; visibility: visible;}
+    .navbar-toggle .icon-bar { width: 40px; height: 5px; background-color: #EE460B; transition: .5s;}
+    .navbar-toggle:hover .icon-bar{ background-color: #000; }
+    .navbar-toggle { display: block;}
+    div.mainmenu ul {
+        background: #e95420; /* Old browsers */
+        background: -moz-linear-gradient(-45deg, #e95420 0%, #ff8100 100%); /* FF3.6-15 */
+        background: -webkit-linear-gradient(-45deg, #e95420 0%,#ff8100 100%); /* Chrome10-25,Safari5.1-6 */
+        background: linear-gradient(135deg, #e95420 0%,#ff8100 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+        width: 300px;
+        position: absolute;
+        right: 0px;
+        top: 59px;
+        z-index: 99;
+        //display: none;
+        padding: 20px;
+    }
+    
+    div.mainmenu ul li{ display: block; float: none;}
+    div.mainmenu ul li a{ color: #fff; padding: 7px 5px; border-bottom: 1px solid #000; }
+    div.mainmenu ul li a:hover{ color: #000; }
+    
+/*=== Mega Menu CSS ===*/
+    div.mainmenu div.mega_menu {
+        width: 280px;
+        height: 255px;
+        position: absolute;
+        left: 0;
+        top: 33px;
+        padding: 10px;
+        overflow-y: scroll;
+        overflow-x: hidden;
+    }
+    
+    div.mainmenu div.mega_menu_pic{ width: 100%; height: 195px; }
+    div.mainmenu div.mega_menu ul {
+        width: 95%;
+        margin-top: 152px;
+        position: absolute;
+        left: 6px;
+        background: transparent;
+    }
+    
+    div.mainmenu div.mega_menu ul.xss { background: transparent; margin-top: -88px; }
+    div.mainmenu ul li:last-child a{ border: none; }
+    
+/*===== Hero Area CSS =====*/
+    .hero_content_details h2 { font-size: 30px; margin-bottom: 10px; }
+    .hero_content_details p { font-size: 17px;}
+    .hero_content_details a.btn-success { font-size: 13px; padding: 2px; }
+    .hero_content_details input[type="search"] { width: 58%; margin-top: 15px; font-size: 15px; }
+    .hero_content_details input[type="submit"] { padding: 10px; font-size: 15px; }
+/*===== Feature Area CSS =====*/
+    .single_feature { border: 1px solid #000; margin-bottom: 15px;}
+    .single_service {  margin-bottom: 25px; }
+    
+/*===== Top Title CSS =====*/
+    .top_title { font-size: 19px; }
+    
+/*===== Blog/Popular Posts Area CSS =====*/
+    .blog_post_pic { width: 100%; height: 250px; }
+    .blog_post_pic img { width: 100%; height: 100%; }
+    .mb { margin-bottom: 20px; }
+    .blog_post_text { margin-bottom: 10px; }
+    .blog_post_text a.read_more { margin: 5px 0px; }
+
+/*===== Social Area CSS =====*/
+    .social_area a { 
+        width: 50px; 
+        height: 50px; 
+        border-radius: 0px 10px 0px 10px; 
+        margin: 7px;
+        line-height: 60px;
+        
+    }
+    .social_area i { font-size: 25px; }
+    
+/*===== Contact Form CSS =====*/
+    .contact_area select#dept, .contact_area select#priority{ width: 48%; }
+    .contact_area select#dept{ margin-right: 11px; }
+    .contact_details { margin-bottom: 30px; }
+    .contact_details h3 { font-size: 20px; }
+    
+/*===== Footer Area CSS =====*/
+    .footer_bottom_menu { margin: 0 0 0 20px; }
+    .footer_bottom_menu ul li:last-child { margin: 5px 0 0 120px; }
+    .footer_bottom p { margin-top: 15px; text-align: center; line-height: 25px;}
+    
+
+/*==============================
+========= Pricing Page CSS =====
+================================*/
+    
+/*======== Pricing Tab CSS ========*/
+    
+.nav>li>a {
+    display: block;
+    padding-left: 150px;
+    padding-right: 150px;
+    margin-bottom: 10px;
+}
+    
+
+    
+    
+}
+
+
+
+/* ===================================
+=====  Wide Mobile Layout: 480px.  ===
+=====================================*/
+@media only screen and (min-width: 480px) and (max-width: 767px) { 
+    
+/*===== Header Area CSS =====*/
+    header ul li a { font-size: 12px; }
+    header a.promo, header a.language, header ul li a { font-size: 12px; }
+    header ul { float: left; padding-left: 10px;}
+    header .promo_language{border-bottom: 1px solid #000; padding-left: 10px;}
+    header div.col-xs-12{padding: 0;}
+    
+/*===== Logo/Navigation Area CSS =====*/
+    nav .logo { width: 100%; height: 55px; }
+    
+    
+/* ============== Mobile Menu ================*/
+    div.mainmenu{ opacity: 0; visibility: hidden;}
+    div.mainmenu.mobMenu{ opacity: 1; visibility: visible;}
+    .navbar-toggle .icon-bar { width: 40px; height: 5px; background-color: #EE460B; transition: .5s;}
+    .navbar-toggle:hover .icon-bar{ background-color: #000; }
+    .navbar-toggle { display: block;}
+    div.mainmenu ul {
+        background: #e95420; /* Old browsers */
+        background: -moz-linear-gradient(-45deg, #e95420 0%, #ff8100 100%); /* FF3.6-15 */
+        background: -webkit-linear-gradient(-45deg, #e95420 0%,#ff8100 100%); /* Chrome10-25,Safari5.1-6 */
+        background: linear-gradient(135deg, #e95420 0%,#ff8100 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+        width: 300px;
+        position: absolute;
+        right: 0px;
+        top: 59px;
+        z-index: 99;
+        //display: none;
+        padding: 20px;
+    }
+    
+    div.mainmenu ul li{ display: block; float: none;}
+    div.mainmenu ul li a{ color: #fff; padding: 7px 5px; border-bottom: 1px solid #000; }
+    div.mainmenu ul li a:hover{ color: #000; }
+
+/*=== Mega Menu CSS ===*/
+    div.mainmenu div.mega_menu {
+        width: 280px;
+        height: 400px;
+        position: absolute;
+        left: 0;
+        top: 33px;
+        padding: 10px;
+        overflow-y: scroll;
+        overflow-x: hidden;
+    }
+    
+    div.mainmenu div.mega_menu_pic{ width: 100%; height: 195px; }
+    div.mainmenu div.mega_menu ul {
+        width: 95%;
+        margin-top: 152px;
+        position: absolute;
+        left: 6px;
+        background: transparent;
+    }
+    
+    div.mainmenu div.mega_menu ul.xss { background: transparent; margin-top: -88px; }
+    div.mainmenu ul li:last-child a{border: none;}
+    
+/*===== Hero Area CSS =====*/
+    .hero_content_details h2 { font-size: 35px; margin-bottom: 10px; }
+    .hero_content_details p { font-size: 20px;}
+    .hero_content_details a.btn-success { font-size: 16px; padding: 5px; }
+    .hero_content_details input[type="search"] { margin-top: 20px; width: 51%; font-size: 18px; }
+    .hero_content_details input[type="submit"] { padding: 10px 20px; font-size: 18px; }
+/*===== Feature Area CSS =====*/
+    .single_feature { border: 1px solid #000; margin-bottom: 15px;}
+    .single_service {  margin-bottom: 25px; }
+    .top_title { font-size: 25px; }
+    
+/*===== Blog/Popular Posts Area CSS =====*/
+    .blog_post_pic { width: 250px; height: 250px; }
+    .blog_post_pic img { width: 100%; height: 100%; }
+    .mb { margin-bottom: 20px; }
+    .blog_post_text { margin-bottom: 10px; }
+    .blog_post_text a.read_more { margin: 5px 0px; }
+
+/*===== Social Area CSS =====*/
+    .social_area a { width: 63px; height: 63px; }
+    
+/*===== Contact Form CSS =====*/
+    .contact_area select#dept, .contact_area select#priority{ width: 48%; }
+    .contact_area select#dept{ margin-right: 16px; }
+    .contact_details { margin-bottom: 30px; }
+    .contact_details h3 { font-size: 17px; }
+    
+/*===== Footer Area CSS =====*/
+    .footer_bottom_menu { margin: 0 0 0 20px; }
+    .footer_bottom_menu ul li:last-child { margin: 0px; }
+    .footer_bottom p { margin-top: 15px; text-align: center; }
+    
+    
+/*==============================
+========= Pricing Page CSS =====
+================================*/
+    
+/*======== Pricing Tab CSS ========*/
+    
+.nav>li>a {
+    width: 100%;
+}
+    
+    
+
+}
+
+
+
+
+
+
+
